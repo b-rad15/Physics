@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="107.0" prefWidth="418.0" text="Select the type of problem you are doing" textAlignment="CENTER" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="60.0" />
+         </VBox.margin>
+      </Label>
+      <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <ChoiceBox prefHeight="50.0" prefWidth="250.0">
+               <HBox.margin>
+                  <Insets right="100.0" />
+               </HBox.margin>
+            </ChoiceBox>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" prefHeight="50.0" prefWidth="84.0" text="Enter">
+               <font>
+                  <Font size="22.5" />
+               </font>
+            </Button>
+         </children>
+         <cursor>
+            <Cursor fx:constant="W_RESIZE" />
+         </cursor>
+      </HBox>
+   </children>
+</VBox>
